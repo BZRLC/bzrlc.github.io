@@ -1,0 +1,26 @@
+
+Bruce Zhao:
+  name: "Bruce Zhao"
+  email: "brucezhaor@qq.com"
+  bio: "立足当下，放眼未来"
+  location: "Shanghai"
+  avatar: "brucezhao.jpg"
+  weibo: "brucezhaor"
+  github: BruceZhaoR
+  linkedin: "brucezhaor"
+
+Elle Liu:
+  name: "Elle Liu"
+  email: #"brucezhaor@qq.com"
+  bio: #"立足当下，放眼未来"
+  location: "Chengdu"
+  avatar: #"brucezhao.jpg"
+  weibo: #"brucezhaor"
+
+hxf:
+  name: "韩旭峰"
+  uri: # "http://thewhip.com"
+  email: "hxfxx00@foxmail.com"
+  bio: "天高任我飞，海阔任我游"
+  avatar: "hxf.jpg"
+  location: "Wuhan"
