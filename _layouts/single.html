@@ -50,7 +50,7 @@ layout: default
         {% endif %}
       </footer>
 
-      {% if page.share %}{% include social-share.html %}{% endif %}
+      {% if site.duoshuo_share %}{% include social-share.html %}{% endif %}
 
       {% include post_pagination.html %}
     </div>
@@ -74,3 +74,40 @@ layout: default
     </div>
   {% endif %}
 </div>
+
+{% if site.anchorjs %}
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options.placement = 'left';
+        anchors.add('h2,h3');
+		anchors.remove('article.archive__item');
+    })
+</script>
+{% endif %}
+
+{% if page.mathjax %}
+<!-- mathjax -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+{% endif %}
+
+<!-- for R highlight -->
+{% include r_highlight.html %}

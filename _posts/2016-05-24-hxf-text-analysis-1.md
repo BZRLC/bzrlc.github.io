@@ -3,8 +3,7 @@ title: "文本分析初探-1"
 author: hxf
 date: "25 May 2016"
 layout: single
-author_profile: true
-read_time: true
+header: "mm-layout-examples.png"
 comments: true
 ---
 

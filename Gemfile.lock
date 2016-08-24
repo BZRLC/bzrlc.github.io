@@ -131,6 +131,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-github-metadata
   wdm (~> 0.1.0)
 
 BUNDLED WITH

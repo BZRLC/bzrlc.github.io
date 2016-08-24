@@ -1,35 +1,73 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
 locale                   : "Zh-CN"
-title                    : "Site Title"
-title_separator          : "/"
-name                     : "Your Name"
-description              : "An amazing website."
+title                    : "R Learning Community"
+title_separator          : "|"
+name                     : "BZRLC"
+description              : "Welcome to Bruce Zhao R Learning Community! Together, we make progress."
 url                      : "http://bzrlc.tech" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "BZRLC/bzrlc.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "minertocat.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-# breadcrumbs            : false # true, false (default)
-words_per_minute         : 50
+breadcrumbs              : true  # true, false (by default)
+words_per_minute         : 50  #for Chinese
+
+
+# comments system
 comments:
-  provider               : false # false (default), "disqus", "discourse", "facebook", "google-plus", custom"
+  provider               : custom # false (default), "disqus", "discourse", "facebook", "google-plus", "custom"
+  custom:
+    shortname            : bzrlc
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+
+
+# Social Sharing 
+# modify in _includes/social-share.html
+duoshuo_share: true
+share-img: share-img.png
+
+
+# anchorjs 
+# modify in _layouts/single.html line#78
+anchorjs: true
+
+
+# default settings for posts 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      comments: true
+      read_time: true
+      author_profile: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
+
+# Custom Feed URLs
 atom_feed:
   path                   : # blank (default) uses feed.xml
+
 
 # SEO Related
 google_site_verification :
@@ -37,20 +75,6 @@ bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
-# Social Sharing
-twitter:
-  username               :
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
 
 # Analytics
 analytics:
@@ -65,30 +89,26 @@ author:
   avatar           : "minertocat.png"
   bio              : "Together, we make progress!"
   location         : "Shanghai"
-  email            : 
+  email            : "burcezhaor@qq.com"
   uri              : "http://bzrlc.tech"
-  bitbucket        : 
-  codepen          : 
-  dribbble         : 
-  flickr           : 
-  facebook         : 
-  foursquare       : 
+  codepen          :
+  flickr           :
+  facebook         :
+  youtube          :
   github           : "BZRLC"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
   linkedin         :
-  pinterest        :
-  soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
   twitter          :
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
+  weibo            : "brucezhaor"
+  wechat           : #images/wechat/二维码名称
+  qq               : 
+
 
 
 # Reading Files
@@ -152,7 +172,7 @@ sass:
 
 
 # Outputting
-permalink: /:year/:month/:day/:title/
+permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
