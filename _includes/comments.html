@@ -1,15 +1,5 @@
-{% include base_path %}
-
-<div class="page__comments">
-  <h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_label | default: "Leave a Comment" }}</h4>
-  {% case site.comments.provider %}
-  {% when "disqus" %}
-    <section id="disqus_thread">
-    {% include /comments-providers/discourse.html %}
-    </section>
-  {% when "custom" %}
-    <section id="comments">
-    {% include /comments-providers/custom.html %}
-    </section>
-  {% endcase %}
-</div>
+{% if site.comments.disqus.shortname %}
+<section id="disqus_thread">
+{% include /comments-providers/disqus.html %}
+</section>
+{% endif %}

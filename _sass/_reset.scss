@@ -11,7 +11,7 @@ html {
   font-size: 16px;
 
   @include breakpoint($medium) {
-    font-size: 18px;
+    font-size: $type-size-6;
   }
 
   -webkit-text-size-adjust: 100%;
@@ -26,12 +26,12 @@ body { margin: 0; }
 
 ::-moz-selection {
   color: #fff;
-  background: #000;
+  background: #0085a1;
 }
 
 ::selection {
   color: #fff;
-  background: #000;
+  background: #0085a1;
 }
 
 /* Display HTML5 elements in IE6-9 and FF3 */

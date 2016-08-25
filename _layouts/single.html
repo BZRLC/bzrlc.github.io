@@ -14,6 +14,10 @@ layout: default
   {% endunless %}
 {% endif %}
 
+{% if page.highlight %}
+{% include r_highlight.html %}
+{% endif %}
+
 <div id="main" role="main">
   {% include sidebar.html %}
 
@@ -39,6 +43,7 @@ layout: default
       </section>
 
       <footer class="page__meta">
+        <hr>
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
         {% endif %}
@@ -48,6 +53,7 @@ layout: default
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
         {% endif %}
+        <hr>
       </footer>
 
       {% if site.duoshuo_share %}{% include social-share.html %}{% endif %}
@@ -55,8 +61,8 @@ layout: default
       {% include post_pagination.html %}
     </div>
 
-    {% if site.comments.provider and page.comments %}
-      {% include comments.html %}
+    {% if site.duoshuo_username and page.comments %}
+      {% include /comments-providers/duoshuo.html %}
     {% endif %}
   </article>
 
@@ -92,7 +98,7 @@ layout: default
     async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
         anchors.options.placement = 'left';
         anchors.add('h2,h3');
-		anchors.remove('article.archive__item');
+       <!--  anchors.remove('article.archive__item'); -->
     })
 </script>
 {% endif %}
@@ -109,5 +115,3 @@ layout: default
 </script>
 {% endif %}
 
-<!-- for R highlight -->
-{% include r_highlight.html %}

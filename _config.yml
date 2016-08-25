@@ -24,6 +24,7 @@ comments:
 
 # Social Sharing 
 # modify in _includes/social-share.html
+duoshuo_username: bzrlc
 duoshuo_share: true
 share-img: share-img.png
 
@@ -43,7 +44,7 @@ defaults:
       comments: true
       read_time: true
       author_profile: true
-      related: true
+      related: false
   # _pages
   - scope:
       path: ""

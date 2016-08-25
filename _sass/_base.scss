@@ -13,7 +13,7 @@ body {
   padding: 0;
   color: $text-color;
   font-family: $global-font-family;
-  line-height: 1.5;
+  line-height: 1.7;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -140,10 +140,11 @@ td > code {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
   font-size: $type-size-6;
-  background: $code-background-color;
+  background: #f9f2f4;
   border: 1px solid $lighter-gray;
-  border-radius: $border-radius;
+  border-radius: 4px;
   box-shadow: $box-shadow;
+	color: #c7254e;
 
   &:before, &:after {
     letter-spacing: -0.2em;
