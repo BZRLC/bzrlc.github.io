@@ -115,7 +115,7 @@ a {
   &:focus {
     @extend %tab-focus;
   }
-
+font-weight: bold;
   &:hover,
   &:active {
     outline: 0;
