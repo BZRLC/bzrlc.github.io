@@ -7,7 +7,7 @@ This blog is forked form [minimal-mistakes](https://mmistakes.github.io/minimal-
 
 ## To Do List
 
-- [ ] 页面底端链接跳转 `<a target="_blank">`
+- [x] 页面底端链接跳转 `<a target="_blank">`
 - [ ] post页面的简介，调整大小、颜色、倾斜，加上链接.
 - [ ] tag, archive 页面重新设置
 - [ ] 增加about页面(放最后面) 介绍markdown的基本语法，加上emoji表情
