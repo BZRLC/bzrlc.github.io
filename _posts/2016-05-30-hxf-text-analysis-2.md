@@ -1,10 +1,14 @@
 ---
 title: "文本分析初探-2"
 author: hxf
-layout: single
 author_profile: true
-read_time: true
+layout: single
 comments: true
+categories: [NLP]
+tags: [NLP,R]
+mathjax: false
+highlight: true
+description: "情感分析简介--文章接着上文，代码也接着上文。"
 ---
 
 
