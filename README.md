@@ -8,7 +8,7 @@ This blog is forked form [minimal-mistakes](https://mmistakes.github.io/minimal-
 ## To Do List
 
 - [x] 页面底端链接跳转 `<a target="_blank">`
-- [ ] post页面的简介，调整大小、颜色、倾斜，加上链接.
+- [ ] post页面的简介，调整大小、颜色、倾斜，加上链接.参考链接：https://ropensci.org/blog/
 - [ ] tag, archive 页面重新设置
 - [ ] 增加about页面(放最后面) 介绍markdown的基本语法，加上emoji表情
 - [x] collection 页面可以暂时去掉
