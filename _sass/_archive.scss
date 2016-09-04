@@ -19,8 +19,8 @@
     text-decoration: none;
   }
 	a:hover {
-		color: #52adc8;
-    text-decoration: underline;}
+		color: #1abc9c;
+    text-decoration: none;}
 }
 
 .archive__subtitle {
@@ -55,11 +55,25 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  font-size: $type-size-7;
+	color: #9ba1a6;
 
   & + p {
     text-indent: 0;
   }
+
+  a {
+	font-weight: normal;
+	font-style: italic;
+  }
+	a:hover {
+		font-weight: bold;
+	}
+}
+
+.archive__item-excerpt a{
+	font-weight: normal;
+	font-style: italic;
 }
 
 .archive__item-teaser {
@@ -76,7 +90,7 @@
   }
 
   .archive__item-title {
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 
