@@ -22,3 +22,24 @@ layout: default
     {{ content }}
   </div>
 </div>
+
+{% if site.anchorjs %}
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.1/anchor.min.js",function(){
+        anchors.options.placement = 'right';
+        anchors.add('h2.archive__subtitle');
+    })
+</script>
+{% endif %}
