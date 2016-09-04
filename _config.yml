@@ -2,7 +2,7 @@
 # Site Settings
 locale                   : "Zh-CN"
 title                    : "R Learning Community"
-title_separator          : "|"
+title_separator          : "\\|"
 name                     : "BZRLC"
 description              : "Welcome to Bruce Zhao R Learning Community! Together, we make progress."
 url                      : "http://bzrlc.tech" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -41,6 +41,7 @@ defaults:
       path: ""
       type: posts
     values:
+      layout: single
       comments: true
       read_time: true
       author_profile: true
@@ -52,6 +53,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+      comments: false
+      share: false
   # _docs
   - scope:
       path: ""
@@ -60,7 +63,6 @@ defaults:
       layout: single
       read_time: false
       author_profile: false
-      share: false
       comments: false
       sidebar:
         nav: "docs"

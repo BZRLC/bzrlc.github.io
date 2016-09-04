@@ -55,7 +55,7 @@ layout: default
         {% endif %}
       </footer>
 
-      {% if site.duoshuo_share %}{% include social-share.html %}{% endif %}
+      {% if site.duoshuo_share and page.comments %}{% include social-share.html %}{% endif %}
 
       {% include post_pagination.html %}
     </div>
