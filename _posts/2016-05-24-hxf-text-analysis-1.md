@@ -9,7 +9,7 @@ categories: [NLP]
 tags: [NLP,R]
 mathjax: false
 highlight: true
-description: "简介测试"
+description: "第一次投稿关于文本处理与分析方面的文章，请轻拍 :pray: "
 ---
 
 
