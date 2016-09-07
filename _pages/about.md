@@ -3,6 +3,7 @@ layout: single
 permalink: /about/
 title: "About The Blog"
 author_profile: true
+comments: ture
 ---
 
 ## 说明
