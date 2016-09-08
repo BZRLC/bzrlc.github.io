@@ -3,7 +3,6 @@ title: "文本分析初探-1"
 author: hxf
 date: "25 May 2016"
 layout: single
-header: "mm-layout-examples.png"
 comments: true
 categories: [NLP]
 tags: [NLP,R]

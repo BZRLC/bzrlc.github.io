@@ -15,7 +15,8 @@ This blog is forked form [minimal-mistakes](https://mmistakes.github.io/minimal-
 
 **欢迎大家贡献关于R学习&数据处理方面学习笔记，感悟等!**
 
-做写模板请见 `_draft` 这个文件夹。
+写作模板请见 `_draft` 这个文件夹。
+
 
 
 ## 本地开发预览
