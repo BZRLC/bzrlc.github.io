@@ -146,7 +146,7 @@ price1<-ggplot(usedcars,aes(x=1,y=price))+geom_boxplot()+
 price1
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-8](/images/posts/Data-Explore/unnamed-chunk-8-1.png)
+![plot of chunk unnamed-chunk-8](/images/posts/data-explore/unnamed-chunk-8-1.png)
 
 {% highlight r %}
 mileage1<-ggplot(usedcars,aes(x=1,y=mileage))+geom_boxplot()+
@@ -155,7 +155,7 @@ mileage1<-ggplot(usedcars,aes(x=1,y=mileage))+geom_boxplot()+
 mileage1
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-8](/images/posts/Data-Explore/unnamed-chunk-8-2.png)
+![plot of chunk unnamed-chunk-8](/images/posts/data-explore/unnamed-chunk-8-2.png)
     
 可以看到`mileage`中的均值与中位数相隔较远，而且在较大的数据中存在比较多的异常值，与之前的分析一致。
 
@@ -169,7 +169,7 @@ price2<-ggplot(usedcars,aes(x=price,y=..density..))+
 price2
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-9](/images/posts/Data-Explore/unnamed-chunk-9-1.png)
+![plot of chunk unnamed-chunk-9](/images/posts/data-explore/unnamed-chunk-9-1.png)
 
 {% highlight r %}
 mileage2<-ggplot(usedcars,aes(x=mileage,y=..density..))+
@@ -179,7 +179,7 @@ mileage2<-ggplot(usedcars,aes(x=mileage,y=..density..))+
 mileage2
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-9](/images/posts/Data-Explore/unnamed-chunk-9-2.png)
+![plot of chunk unnamed-chunk-9](/images/posts/data-explore/unnamed-chunk-9-2.png)
 
 可以看到`mileage`呈现明显的偏态分布.
     
