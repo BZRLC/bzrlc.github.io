@@ -27,14 +27,16 @@ This blog is forked form [minimal-mistakes](https://mmistakes.github.io/minimal-
 
 - [x] 页面底端链接跳转 `<a target="_blank">`
 - [x] 添加favicon.ico
-- [ ] 添加更多作者信息，如qq、WeChat、weibo等
+- [x] 添加更多作者信息，如qq、WeChat、weibo等
 - [x] post页面的简介，调整大小、颜色、倾斜，加上链接.参考链接：https://ropensci.org/blog/
-- [ ] tag, archive 页面重新设置(已加入anchor,用于跳转)
-- [ ] 增加about页面(放最后面) 介绍markdown的基本语法，加上emoji表情
+- [x] tag, archive 页面重新设置(已加入anchor,用于跳转)
+- [x] 增加about页面(放最后面) 介绍markdown的基本语法，加上emoji表情
 - [x] collection 页面可以暂时去掉
-- [ ] home index 重新设计，参考模板 https://github.com/BruceZhaoR/agency-jekyll-theme
+- [x] home index 重新设计
 - [ ] previou/next 增加hover颜色？
 - [ ] back to top 
+- [ ] vim 换行是空格而不是tab？ !important
+- [ ] header image 的 linear-gradient重写 !important
 - [ ] ... 
 
 
