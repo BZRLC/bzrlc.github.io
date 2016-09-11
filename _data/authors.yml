@@ -6,16 +6,19 @@ Bruce Zhao:
   location: "Shanghai"
   avatar: "brucezhao.jpg"
   weibo: "brucezhaor"
-  github: BruceZhaoR
+  github: "BruceZhaoR"
   linkedin: "brucezhaor"
+  wechat: "brucezhaor.jpg"
 
 Elle Liu:
   name: "Elle Liu"
   email: #"brucezhaor@qq.com"
-  bio: #"立足当下，放眼未来"
+  bio: "广漂妹子;统计学;西财"
   location: "Guangzhou"
   avatar: "Elle-Liu.jpg"
-  weibo: #"brucezhaor"
+  weibo: "u/2431043502"
+  github: "ElleLiu"
+  wechat: "elleliu.jpg"
 
 hxf:
   name: "韩旭峰"
@@ -24,3 +27,5 @@ hxf:
   bio: "天高任我飞，海阔任我游"
   avatar: "hxf.jpg"
   location: "Wuhan"
+  weibo: "hanxufeng"
+
