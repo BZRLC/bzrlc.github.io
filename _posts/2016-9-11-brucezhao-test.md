@@ -6,7 +6,7 @@ layout: single
 header:
   overlay_color: "#5e616c"
   overlay_image: unsplash-gallery-image-1.jpg
-  padding: 13em
+  padding: 9.5em
 excerpt: 'Test post with header image'
 comments: true
 categories: [Test]
