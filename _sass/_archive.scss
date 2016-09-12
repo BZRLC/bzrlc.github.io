@@ -18,8 +18,8 @@
     color: inherit;
     text-decoration: none;
   }
-	a:hover {
-		color: #1abc9c;
+  a:hover {
+    color: #1abc9c;
     text-decoration: none;}
 }
 
@@ -56,7 +56,7 @@
 .archive__item-excerpt {
   margin-top: 0;
   font-size: $type-size-7;
-	color: #9ba1a6;
+  color: #9ba1a6;
 
   & + p {
     text-indent: 0;
@@ -67,7 +67,7 @@
 	font-style: italic;
   }
 	a:hover {
-		font-weight: bold;
+    font-weight: bold;
 	}
 }
 
@@ -94,6 +94,14 @@
   }
 }
 
+legend {
+    font-weight: bold;
+    font-size: 1.25em;
+    width: 80%;
+    border-bottom: 2px solid #e5e5e5;
+    margin-bottom: 1.25em;
+    display: block;
+}
 
 /*
    List view
