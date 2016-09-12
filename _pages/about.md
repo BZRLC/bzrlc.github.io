@@ -4,6 +4,12 @@ permalink: /about/
 title: "About The Blog"
 author_profile: true
 comments: ture
+header:
+  overlay_color: "#000"
+  overlay_filter: "#22b3eb, rgba(0,0,0,0.25)"
+  overlay_image: mm-home-page-feature.jpg
+  padding: 10em
+excerpt: "关于博客的一些说明"
 ---
 
 ## 说明
