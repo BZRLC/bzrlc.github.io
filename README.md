@@ -33,10 +33,10 @@ This blog is forked form [minimal-mistakes](https://mmistakes.github.io/minimal-
 - [x] 增加about页面(放最后面) 介绍markdown的基本语法，加上emoji表情
 - [x] collection 页面可以暂时去掉
 - [x] home index 重新设计
-- [ ] previou/next 增加hover颜色？
+- [ ] previou/next 增加标题说明？
 - [ ] back to top 
 - [ ] vim 换行是空格而不是tab？ !important
-- [ ] header image 的 linear-gradient重写 !important
-- [ ] ... 
+- [x] header image 的 linear-gradient重写 !important
+- [ ] social icon 配色重新弄 
 
 
