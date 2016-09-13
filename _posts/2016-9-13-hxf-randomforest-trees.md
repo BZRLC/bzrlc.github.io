@@ -129,7 +129,7 @@ $$ MAE = \frac{ \sum{ \left|pred - obs\right|} }{n} $$
 
 $$ MSE = \frac{ \sum{(pred - obs)^2} }{n} $$
 
-$$ NMSE = \frac{ MSE }{ \frac{ \sum{ (\overline{pred} - obs)^2 } }{n} } $$
+$$ NMSE = \frac{ MSE }{ \frac{ \sum{ (\overline{obs} - obs)^2 } }{n} } $$
 
 既然是预测回归任务，就可以使用常见的统计指标进行模型的筛选、评估、监控，这里仅回顾平均绝对误差（MAE）、均方差（MSE）、标准化平均绝对方差（NMSE）这三个评价指标。
 
