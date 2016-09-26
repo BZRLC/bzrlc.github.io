@@ -3,7 +3,13 @@ layout: single
 title: "探索性数据分析"
 author: "Elle Liu"
 date: "9 September 2016"
-categories: [Description-Statistics]
+header:
+  overlay_color: "#000"
+  overlay_filter: "#187ecb,#1d0202,#0e796a"
+  overlay_image: mm-home-page-feature.jpg
+  padding: 10em
+excerpt: "介绍一整套的数据探索，描述，到ggplot作图流程"
+categories: [Statistics]
 tags: [Data-Explore]
 mathjax: ture
 highlight: ture
