@@ -1,17 +1,22 @@
 ---
 title: "获取 R 函数或方法源代码"
-author: Lix
-author_profile: true
+author: "Lix"
 date: "10 November 2016"
+header:
+    overlay_color: "#ccc"
+    overlay_image: share-img.jpg
+    padding: 10em
+excerpt: "学编程要多阅读源代码，在此整理从 R 命令行获取源代码的方法。"
 layout: single
 comments: true
-categories: [编程基础]
+categories: [R-Basics]
 tags: [R,Programming]
+highlight: true
 mathjax: false
 description: "学编程要多阅读源代码，在此整理从 R 命令行获取源代码的方法。"
 ---
 
-为了深入了解 R 语言，谷歌检索了阅读源代码的方法，在此整理和记录以便查阅。
+为了深入了解 R 语言，整理了一些阅读源代码的方法，在此整理和记录以便查阅。
 
 要直接从 R 命令行获取源代码，需要了解一些 R 语言编程知识。R 语言中函数或者方法有许多种，例如：
 
@@ -86,6 +91,7 @@ untar(download.packages(pkgs = "Matrix",
 说明：该文章同时发布在作者[个人博客](http://lix90.github.io)上，内容主要从网络上获取整理，主要参考了这个 [stackoverflow](http://stackoverflow.com/questions/19226816/how-can-i-view-the-source-code-for-a-function) 问题的解答。未经过专业编程训练，措辞难免存在不恰当之处，还请指正。
 
 主要参考资料：
+
 - [How can I view the source code for a function?](http://stackoverflow.com/questions/19226816/how-can-i-view-the-source-code-for-a-function) 主要参考资料
 - [What does “S3 methods” mean in R?](http://stackoverflow.com/questions/6583265/what-does-s3-methods-mean-in-r/6583639#6583639)
 - [Get source codes for invisible functions or internal functions in R](http://yusung.blogspot.jp/2007/08/get-invisible-functions-or-internal.html)
