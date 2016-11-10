@@ -29,13 +29,3 @@ hxf:
   avatar: "hxf.jpg"
   location: "Wuhan"
   weibo: "hanxufeng"
-
-Lix:
-  name: "Li Xiang"
-  uri: "http://lix90.github.io"
-  email: "xiangli90@outlook.com"
-  bio: "心理学;喜欢数据+设计+代码;"
-  location: "Chongqing"
-  github: "lix90"
-  wechat: "lix.jpg"
-
