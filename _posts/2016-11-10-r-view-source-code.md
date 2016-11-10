@@ -5,7 +5,7 @@ date: "10 November 2016"
 header:
     overlay_color: "#ccc"
     overlay_image: share-img.jpg
-    padding: 10em
+    padding: 9.5em
 excerpt: "学编程要多阅读源代码，在此整理从 R 命令行获取源代码的方法。"
 layout: single
 comments: true
