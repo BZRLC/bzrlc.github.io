@@ -1,6 +1,23 @@
 
 This blog is forked form [minimal-mistakes](https://mmistakes.github.io/minimal-mistakes/), a flexible two-column Jekyll theme. Perfect for personal sites, blogs, and portfolios hosted on GitHub or your own server
 
+## 目录
+
++ [说明](#说明)
++ [写作格式说明](#文章参数配置说明)
+  - [author](#author)
+  - [date](#date)
+  - [layout](#layout)
+  - [header](#header)
+  - [comments](#comments)
+  - [categories](#categories)
+  - [tags](#tags)
+  - [mathjax](#mathjax)
+  - [highlight](#highlight)
+  - [description](#description)
++ [本地预览](#本地开发预览)
++ [changes](#to-do-list)
+
 ## 说明
 
 不知道大家有没有碰到这样的问题：之前遇到了的问题再次遇到时却记不起当时的解决办法了，或者记录在了某张纸上/某个本子上，想去翻却找不到的尴尬  :flushed:
@@ -17,6 +34,8 @@ This blog is forked form [minimal-mistakes](https://mmistakes.github.io/minimal-
 
 写作模板请见 `_draft` 这个文件夹。
 
+<hr>
+
 ## 文章参数配置说明
 
 这个是文章的模板，应该放在`_posts`文件夹下，命名规则为`2016-09-30-title.md`，title需要全英文命名，请用`-`分隔，具体参考文件夹下已有的md命名。接下来详细说明一下上面的参数代表的意思以及正确的配置。
@@ -26,6 +45,7 @@ This blog is forked form [minimal-mistakes](https://mmistakes.github.io/minimal-
 这个参数传入作者的名字。这里的名字跟下面的`author_profile`是相关的，为了能正确的展示作者的名称和相关信息，你需要到`_data/authors.yml`添加相关的信息。需要注意的是:
 
 - author 传入的名称应该与`authors.yml`里面的名称相一致，尤其注意空格什么的
+- avatar是作者的头像，外链或者图片都行。如果是图片需要放在`images/`下面，默认的是bio-photo.jpg
 - `authors.yml` 下面的wechat为微信二维码图片，应该放在`images/wechat`下面
 - weibo与github给出的是域名简称，例如`http://weibo.com/brucezhaor`,`https://github.com/BruceZhaoR`最后面的
 
@@ -128,15 +148,17 @@ some R codes
 
 文章的概括的描述，会呈现在主页文章列表的下面灰色字体部分，用于说明文章的主要内容，让人知道这篇文章大致是关于什么的。一般建议都稍微写一写 :blush:
 
-
-### 最后
-
-介绍终于详细地写完了，写了我好几个小时，反正在火车上无聊。。。最后祝大家国庆七天乐！
-
+<hr>
 
 ## 本地开发预览
 
-` bundle exec jekyll serve --config _config.yml,_config.dev.yml`
+```bash
+git pull git@github.com:BZRLC/bzrlc.github.io.git
+cd bzrlc.github.io
+bundle exec jekyll serve --config _config.yml,_config.dev.yml
+```
+
+默认是pr分支，master被保护了，以防万一。所以直接在pr分支里面改，然后push就行了。剩下的我来merge。
 
 ## To Do List
 

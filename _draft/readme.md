@@ -8,6 +8,7 @@
 
 - author 传入的名称应该与`authors.yml`里面的名称相一致，尤其注意空格什么的
 - `authors.yml` 下面的wechat为微信二维码图片，应该放在`images/wechat`下面
+- avatar是作者的头像，外链或者图片都行。如果是图片需要放在`images/`下面，默认的是bio-photo.jpg
 - weibo与github给出的是域名简称，例如`http://weibo.com/brucezhaor`,`https://github.com/BruceZhaoR`最后面的
 
 如果你的微博没有个性化域名，你需要去你的微博主页看看，然后复制一下后面的名称，例如：`u/1234567890`.
