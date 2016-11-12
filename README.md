@@ -40,6 +40,8 @@ This blog is forked form [minimal-mistakes](https://mmistakes.github.io/minimal-
 
 这个是文章的模板，应该放在`_posts`文件夹下，命名规则为`2016-09-30-title.md`，title需要全英文命名，请用`-`分隔，具体参考文件夹下已有的md命名。接下来详细说明一下上面的参数代表的意思以及正确的配置。
 
+效果预览在这里：<http://bzrlc.tech/test/brucezhao-test/>. 原始文件在这里：<https://github.com/BZRLC/bzrlc.github.io/blob/master/_posts/2016-09-11-brucezhao-test.md>.
+
 ### author
 
 这个参数传入作者的名字。这里的名字跟下面的`author_profile`是相关的，为了能正确的展示作者的名称和相关信息，你需要到`_data/authors.yml`添加相关的信息。需要注意的是:
